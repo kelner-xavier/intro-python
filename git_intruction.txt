@@ -1,0 +1,13 @@
+- First of all, we need to clone(pick up) de repository to your machine doing the command bellow:
+
+    "git clone https://github.com/account/repository"
+
+- Typing the comand "ls -la" into the folder you already cloned, you will notice that a hidden folder was created called ".git".
+  That means you had already linked your repository into your local machine and now you are able to make changes!
+
+- Type "git status" to show which archives were not modified, added, or deleted and some others information
+
+- To select the archives and then push them to the github repository, first type "git add 'archive1' 'archive2' (...)" or "git add --all" if you want 
+  to select all of them. Then type "git commit -m 'comentáio'" to add comments telling what changes you've done.
+
+- At the end of this, all you need to d e to push the changes by typing "git push origin master"
